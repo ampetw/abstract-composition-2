@@ -1,0 +1,122 @@
+/*asterisk means everything on that page will take a new style*/
+
+/*class names*/
+
+
+
+.mainbox1{
+
+    display: inline-block;
+    position: relative;
+    background:rgb(35, 66, 180);
+    width:400px;
+    height:400px;
+    vertical-align: top;
+    padding:20px;
+    border-radius: 60%;
+    margin: 20px;
+    border: 10px;
+    border-color: rgb(128, 203, 243);;
+    border-style: dashed;
+    border-width: 45px;
+
+
+
+}
+
+.mainbox2{
+
+    display: inline-block; 
+    position: relative;
+    background:rgb(28, 203, 179);
+    width:400px; 
+    height:400px; 
+    vertical-align: top;
+    padding:20px;
+    margin-top: 700px;
+    border-radius: 60%;
+    border: 10px;
+    border-color: rgb(3, 43, 64);;
+    border-style: dashed;
+    border-width: 45px;
+
+}
+
+.mainbox3{
+
+    display: inline-block;
+    position: relative;
+    background:rgb(107, 183, 160);
+    width:400px;
+    height:400px;
+    vertical-align: top;
+    padding:20px;
+    margin-top: 20px;
+    border-radius: 70%;
+    border: 10px;
+    border-color: rgb(205, 243, 128);;
+    border-style: dashed;
+    border-width: 45px;
+}
+
+.circle{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to bottom, blue, rgb(130, 209, 223));
+}
+
+.circle2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to left, rgb(200, 200, 236), rgb(61, 237, 152));  
+}
+
+.circle3{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to left, rgb(200, 200, 236), rgb(12, 190, 36));  
+}
+
+.square{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    margin:100px;
+    background: linear-gradient(to left, rgb(200, 200, 236), rgb(12, 190, 36));  
+    opacity: 0.7;
+}
+
+.square2{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    margin:100px;
+    background: linear-gradient(to left, rgb(200, 200, 236), rgb(12, 190, 36));  
+    opacity: 0.7;
+}
+
+.square3{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin:100px;
+    background: linear-gradient(to left, rgb(200, 200, 236), rgb(12, 190, 36));  
+    opacity: 0.7;
+}
+/* > means to go inside, p means for each paragraph */
+
